@@ -8,6 +8,9 @@ Initially designed to work with Epson FX-80-compatible printers, but may have ot
 Serial CTS Flow control implemented, triggered by the parallel busy pin, to allow effective transmission at higher baud rates. Currently tested up to 9600 bps.  
 
 ### Circuit Diagram
+To be taken as a rough guide. 
+Pin assignments in code trump the diagram.
+Jumpers to select baud rate are not implemented but may be done in a future release.
 ![Image](https://github.com/whatuptkhere/paralleloslam/blob/master/circuitdiagram.jpg)
 
 ### Credits
