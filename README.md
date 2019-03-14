@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Paralleloslam
+![Image](https://github.com/whatuptkhere/paralleloslam/blob/master/paralleloslam.png?raw=true)
 
-You can use the [editor on GitHub](https://github.com/whatuptkhere/paralleloslam/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A serial-to-parallel data transmission device, using the ATMEGA 328. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Initially designed to work with Epson FX-80-compatible printers, but may have other useful applications.
 
-### Markdown
+Serial CTS Flow control implemented, triggered by the parallel busy pin, to allow effective transmission at higher baud rates. Currently tested up to 9600 bps.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Circuit Diagram
+![Image](https://github.com/whatuptkhere/paralleloslam/blob/master/circuitdiagram.jpg)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/whatuptkhere/paralleloslam/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Credits
+Programming & Hardware by Cosmos2000 & TK
+Inspired by sentryGun53 
