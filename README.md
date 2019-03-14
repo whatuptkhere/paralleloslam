@@ -15,4 +15,5 @@ Jumpers to select baud rate are not implemented but may be done in a future rele
 
 ### Credits
 Programming & Hardware by Cosmos2000 & TK
+
 Inspired by sentryGun53 
